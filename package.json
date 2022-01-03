@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib",
-    "sass": "node-sass -o lib sass",
-    "start": "npm run build && sass"
+    "sass": "node-sass -o css sass",
+    "start": "npm run sass && build"
   },
   "author": "piwiit",
   "license": "ISC",
