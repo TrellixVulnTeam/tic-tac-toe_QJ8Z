@@ -1,0 +1,25 @@
+html {
+  //font-size 10 px
+  font-size: 62, 5%;
+
+  // footer support
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: var(--body);
+  font-family: var(--font-family);
+  font-size: 1.875rem;
+  line-height: 1.6;
+  word-wrap: break-word;
+
+  // footer support
+  margin-bottom: 6.25rem;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}

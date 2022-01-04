@@ -1,0 +1,16 @@
+@import 'reset';
+@import 'base';
+
+//HEADER
+
+.header {
+  border-bottom: 0.125rem solid var(--boder);
+  background-color: var(--header);
+}
+
+.header-container {
+  max-width: 87.5rem;
+  padding: 2.5rem;
+  margin: 0 auto;
+  text-align: center;
+}
